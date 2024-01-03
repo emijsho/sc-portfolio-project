@@ -115,6 +115,17 @@ nav li {
   margin-left: 10px;
   font-family: var(--default-font-family);
 }
+a {
+  color: var(--secondary-color);
+}
+a:visited {
+  color: var(--secondary-color);
+}
+a:hover {
+  color: var(--secondary-color);
+  font-weight: bold;
+  transition: all 100ms ease-in-out;
+}
 nav a {
   color: #000000;
   text-decoration: none;
@@ -157,6 +168,7 @@ footer .social-links a {
   font-size: 18px;
   border-radius: 50%;
   transition: all 150ms ease-in-out;
+  border: 5px solid var(--branding-color);
 }
 footer .social-links a:hover {
   margin: 0 20px;
