@@ -34,7 +34,7 @@ p {
 }
 .hero {
   background: var(--branding-color);
-  border: 5px solid var(--branding-color);
+
   text-align: center;
   padding: 160px 20px;
 }
@@ -55,7 +55,7 @@ p {
   background: white;
   border: 5px solid var(--branding-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -76,7 +76,7 @@ p {
   font-size: 14px;
 }
 .content {
-  margin: 30px;
+  margin: 10px;
 }
 .btn-branding {
   background: white;
